@@ -99,7 +99,7 @@
                     </a>
                     <a class="navicon" href="https://wiki.outernet.is/">
                         <span class="icon"></span>
-                        <span class="label">${_("About")}</span>
+                        <span class="label">${_("Wiki")}</span>
                     </a>
                     <a class="navicon store" href="http://store.outernet.is/">
                         <span class="icon"></span>
