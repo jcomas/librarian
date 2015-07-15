@@ -2043,6 +2043,18 @@ form.inline button {
 .info {
   padding: 20px; }
 
+/* line 179, ../scss/partials/_common_elements.scss */
+p.end, p.empty {
+  font-size: 125%;
+  line-height: 130%;
+  color: #888888;
+  text-align: center;
+  padding: 1.5em 20px 2em; }
+
+/* line 187, ../scss/partials/_common_elements.scss */
+p.end {
+  padding-top: 2em; }
+
 /**
  * _sprites.scss: sprite images with high-dpi display support
  *

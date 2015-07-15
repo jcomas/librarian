@@ -12,12 +12,14 @@ from bottle import request
 from bottle_utils.i18n import lazy_ngettext, lazy_gettext as _, i18n_url
 
 from ..core import downloads
+from ..lib.auth import login_required
 from ..lib.paginator import Paginator
 from ..utils.cache import invalidates
 from ..utils.core_helpers import open_archive, filter_downloads
 from ..utils.template import view
 
 
+@login_required()
 @view('downloads')
 def list_downloads():
     """ Render a list of downloaded content """
@@ -45,14 +47,18 @@ def list_downloads():
                 metadata=paginator.items)
 
 
-def notify_content_added(content_id_list):
+def notify_content_added(content_id_list, chunk_size=100):
     archive = open_archive()
-    content_list = archive.get_multiple(content_id_list,
-                                        fields=('md5', 'title'))
-    for content_item in content_list:
-        content_data = {'id': content_item['md5'],
-                        'title': content_item['title']}
-        request.app.exts.notifications.send(content_data, category='content')
+    id_list = (content_id_list[i:i + chunk_size]
+               for i in range(0, len(content_id_list), chunk_size))
+    for content_ids in id_list:
+        content_list = archive.get_multiple(content_ids,
+                                            fields=('md5', 'title'))
+        for content_item in content_list:
+            content_data = {'id': content_item['md5'],
+                            'title': content_item['title']}
+            request.app.exts.notifications.send(content_data,
+                                                category='content')
 
 
 @invalidates(prefix=['content', 'downloads'], after=True)
@@ -135,6 +141,7 @@ def delete_all(*args):
                 redirect_target=_("Updates"))
 
 
+@login_required()
 @view('feedback')
 def manage_downloads():
     """ Manage the downloaded content """

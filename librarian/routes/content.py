@@ -32,7 +32,7 @@ from ..utils.core_helpers import open_archive, with_content
 app = default_app()
 
 
-@cached(prefix='content')
+@cached(prefix='content', timeout=300)
 def filter_content(query, lang, tag, multipage):
     conf = request.app.config
     archive = open_archive()
@@ -201,9 +201,6 @@ def routes(app):
          'GET', '/', {}),
         ('content:sites_list', content_sites_list,
          'GET', '/sites/', {}),
-        ('content:zipball', content_zipball,
-         'GET', '/pages/<content_id>.zip',
-         dict(no_i18n=True, unlocked=True, skip=skip_plugins)),
         ('content:reader', content_reader,
          'GET', '/pages/<content_id>', {}),
         ('content:delete', remove_content_confirm,

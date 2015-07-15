@@ -1983,9 +1983,77 @@ table form button {
   box-sizing: border-box;
   font-weight: bold; }
 /* line 67, ../scss/partials/_mainmenu.scss */
-.menu #nav .navicon.notifications .label {
-  display: none !important; }
+.menu #nav .navicon.notifications .notifications-label {
+  display: none; }
 /* line 73, ../scss/partials/_mainmenu.scss */
+.menu #nav .navicon.notifications-active .icon {
+  display: inline-block;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url('../img/icons/1x-s1019c0909a.png');
+  background-position: 0 -275px;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
+  /* line 73, ../scss/partials/_mainmenu.scss */
+  .menu #nav .navicon.notifications-active .icon {
+    background-image: url('../img/icons/2x-s0fc7e81043.png');
+    background-position: 0 -275px;
+    -moz-background-size: 100px 4464px;
+    -o-background-size: 100px 4464px;
+    -webkit-background-size: 100px 4464px;
+    background-size: 100px 4464px; } }
+/* line 50, ../scss/outernet/widgets/_icons.scss */
+.menu #nav .navicon.notifications-active .icon:hover {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url('../img/icons/1x-s1019c0909a.png');
+  background-position: 0 -330px;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
+  /* line 50, ../scss/outernet/widgets/_icons.scss */
+  .menu #nav .navicon.notifications-active .icon:hover {
+    background-image: url('../img/icons/2x-s0fc7e81043.png');
+    background-position: 0 -330px;
+    -moz-background-size: 100px 4464px;
+    -o-background-size: 100px 4464px;
+    -webkit-background-size: 100px 4464px;
+    background-size: 100px 4464px; } }
+/* line 54, ../scss/outernet/widgets/_icons.scss */
+.menu #nav .navicon.notifications-active .icon.no-label {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  text-transform: capitalize; }
+/* line 62, ../scss/outernet/widgets/_icons.scss */
+.menu #nav .navicon.notifications-active .icon .label {
+  display: inline-block;
+  position: absolute;
+  font-size: 12px;
+  bottom: -4px;
+  right: -12px;
+  width: 1.55em;
+  line-height: 1.4em;
+  padding: 0;
+  text-align: center;
+  background: #ffffff;
+  color: #e17502;
+  border: 1px solid #dddddd;
+  -moz-border-radius: 1000px;
+  -webkit-border-radius: 1000px;
+  border-radius: 1000px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-weight: bold; }
+/* line 77, ../scss/partials/_mainmenu.scss */
+.menu #nav .navicon.notifications-active .notifications-label {
+  display: none; }
+/* line 83, ../scss/partials/_mainmenu.scss */
 .menu .dropdown.languages {
   display: inline-block;
   position: relative;
@@ -2025,15 +2093,15 @@ table form button {
 /* line 21, ../scss/partials/_dropdown.scss */
 .menu .dropdown.languages .dropdown-body li:hover {
   background-color: #f7dcc1; }
-/* line 78, ../scss/partials/_mainmenu.scss */
+/* line 88, ../scss/partials/_mainmenu.scss */
 .menu .dropdown.languages .dropdown-item {
   white-space: nowrap; }
-/* line 82, ../scss/partials/_mainmenu.scss */
+/* line 92, ../scss/partials/_mainmenu.scss */
 .menu .dropdown.languages .dropdown-item .language {
   padding: 10px 20px 10px 20px;
   text-align: center;
   display: block; }
-/* line 88, ../scss/partials/_mainmenu.scss */
+/* line 98, ../scss/partials/_mainmenu.scss */
 .menu .dropdown.languages .dropdown-item span.selected {
   display: inline-block;
   vertical-align: middle;
@@ -2042,7 +2110,7 @@ table form button {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 88, ../scss/partials/_mainmenu.scss */
+  /* line 98, ../scss/partials/_mainmenu.scss */
   .menu .dropdown.languages .dropdown-item span.selected {
     background-image: url('../img/icons/2x/checkmark_active.png?1436274495');
     -moz-background-size: 25px, 25px;
@@ -2050,18 +2118,18 @@ table form button {
     -webkit-background-size: 25px, 25px;
     background-size: 25px, 25px; } }
 @media only screen and (max-width: 800px) {
-  /* line 73, ../scss/partials/_mainmenu.scss */
+  /* line 83, ../scss/partials/_mainmenu.scss */
   .menu .dropdown.languages {
     display: none; } }
 
-/* line 102, ../scss/partials/_mainmenu.scss */
+/* line 112, ../scss/partials/_mainmenu.scss */
 .alt-menu .icon {
   width: 30px;
   margin-right: 0.5em; }
-/* line 107, ../scss/partials/_mainmenu.scss */
+/* line 117, ../scss/partials/_mainmenu.scss */
 .alt-menu .label {
   display: inline-block; }
-/* line 111, ../scss/partials/_mainmenu.scss */
+/* line 121, ../scss/partials/_mainmenu.scss */
 .alt-menu .level2-lang .selected {
   background: #e7f3e9;
   background-image: url('../img/icons/1x/form_positive.png?1436274495');
@@ -2069,7 +2137,7 @@ table form button {
   background-position: right 20px top 50%;
   color: #058120; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 111, ../scss/partials/_mainmenu.scss */
+  /* line 121, ../scss/partials/_mainmenu.scss */
   .alt-menu .level2-lang .selected {
     background-image: url('../img/icons/2x/form_positive.png?1436274495');
     -moz-background-size: 25px, 25px;
@@ -2077,7 +2145,7 @@ table form button {
     -webkit-background-size: 25px, 25px;
     background-size: 25px, 25px; } }
 
-/* line 123, ../scss/partials/_mainmenu.scss */
+/* line 133, ../scss/partials/_mainmenu.scss */
 #nav .library .icon, .alt-menu .library .icon {
   display: inline-block;
   vertical-align: middle;
@@ -2087,7 +2155,7 @@ table form button {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 123, ../scss/partials/_mainmenu.scss */
+  /* line 133, ../scss/partials/_mainmenu.scss */
   #nav .library .icon, .alt-menu .library .icon {
     background-image: url('../img/librarian/2x-s53c21e5ca8.png');
     background-position: 0 -330px;
@@ -2096,7 +2164,7 @@ table form button {
     -webkit-background-size: 250px 1276px;
     background-size: 250px 1276px; } }
 
-/* line 129, ../scss/partials/_mainmenu.scss */
+/* line 139, ../scss/partials/_mainmenu.scss */
 #nav .library:hover .icon, #nav .library.active .icon {
   display: inline-block;
   vertical-align: middle;
@@ -2106,7 +2174,7 @@ table form button {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 129, ../scss/partials/_mainmenu.scss */
+  /* line 139, ../scss/partials/_mainmenu.scss */
   #nav .library:hover .icon, #nav .library.active .icon {
     background-image: url('../img/librarian/2x-s53c21e5ca8.png');
     background-position: 0 -385px;
@@ -2115,7 +2183,7 @@ table form button {
     -webkit-background-size: 250px 1276px;
     background-size: 250px 1276px; } }
 
-/* line 123, ../scss/partials/_mainmenu.scss */
+/* line 133, ../scss/partials/_mainmenu.scss */
 #nav .files .icon, .alt-menu .files .icon {
   display: inline-block;
   vertical-align: middle;
@@ -2125,7 +2193,7 @@ table form button {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 123, ../scss/partials/_mainmenu.scss */
+  /* line 133, ../scss/partials/_mainmenu.scss */
   #nav .files .icon, .alt-menu .files .icon {
     background-image: url('../img/librarian/2x-s53c21e5ca8.png');
     background-position: 0 -110px;
@@ -2134,7 +2202,7 @@ table form button {
     -webkit-background-size: 250px 1276px;
     background-size: 250px 1276px; } }
 
-/* line 129, ../scss/partials/_mainmenu.scss */
+/* line 139, ../scss/partials/_mainmenu.scss */
 #nav .files:hover .icon, #nav .files.active .icon {
   display: inline-block;
   vertical-align: middle;
@@ -2144,7 +2212,7 @@ table form button {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 129, ../scss/partials/_mainmenu.scss */
+  /* line 139, ../scss/partials/_mainmenu.scss */
   #nav .files:hover .icon, #nav .files.active .icon {
     background-image: url('../img/librarian/2x-s53c21e5ca8.png');
     background-position: 0 -165px;
@@ -2153,7 +2221,7 @@ table form button {
     -webkit-background-size: 250px 1276px;
     background-size: 250px 1276px; } }
 
-/* line 123, ../scss/partials/_mainmenu.scss */
+/* line 133, ../scss/partials/_mainmenu.scss */
 #nav .sites .icon, .alt-menu .sites .icon {
   display: inline-block;
   vertical-align: middle;
@@ -2163,7 +2231,7 @@ table form button {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 123, ../scss/partials/_mainmenu.scss */
+  /* line 133, ../scss/partials/_mainmenu.scss */
   #nav .sites .icon, .alt-menu .sites .icon {
     background-image: url('../img/librarian/2x-s53c21e5ca8.png');
     background-position: 0 -726px;
@@ -2172,7 +2240,7 @@ table form button {
     -webkit-background-size: 250px 1276px;
     background-size: 250px 1276px; } }
 
-/* line 129, ../scss/partials/_mainmenu.scss */
+/* line 139, ../scss/partials/_mainmenu.scss */
 #nav .sites:hover .icon, #nav .sites.active .icon {
   display: inline-block;
   vertical-align: middle;
@@ -2182,7 +2250,7 @@ table form button {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 129, ../scss/partials/_mainmenu.scss */
+  /* line 139, ../scss/partials/_mainmenu.scss */
   #nav .sites:hover .icon, #nav .sites.active .icon {
     background-image: url('../img/librarian/2x-s53c21e5ca8.png');
     background-position: 0 -781px;
@@ -2191,7 +2259,7 @@ table form button {
     -webkit-background-size: 250px 1276px;
     background-size: 250px 1276px; } }
 
-/* line 123, ../scss/partials/_mainmenu.scss */
+/* line 133, ../scss/partials/_mainmenu.scss */
 #nav .apps .icon, .alt-menu .apps .icon {
   display: inline-block;
   vertical-align: middle;
@@ -2201,7 +2269,7 @@ table form button {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 123, ../scss/partials/_mainmenu.scss */
+  /* line 133, ../scss/partials/_mainmenu.scss */
   #nav .apps .icon, .alt-menu .apps .icon {
     background-image: url('../img/librarian/2x-s53c21e5ca8.png');
     background-position: 0 0;
@@ -2210,7 +2278,7 @@ table form button {
     -webkit-background-size: 250px 1276px;
     background-size: 250px 1276px; } }
 
-/* line 129, ../scss/partials/_mainmenu.scss */
+/* line 139, ../scss/partials/_mainmenu.scss */
 #nav .apps:hover .icon, #nav .apps.active .icon {
   display: inline-block;
   vertical-align: middle;
@@ -2220,7 +2288,7 @@ table form button {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 129, ../scss/partials/_mainmenu.scss */
+  /* line 139, ../scss/partials/_mainmenu.scss */
   #nav .apps:hover .icon, #nav .apps.active .icon {
     background-image: url('../img/librarian/2x-s53c21e5ca8.png');
     background-position: 0 -55px;
@@ -2229,7 +2297,7 @@ table form button {
     -webkit-background-size: 250px 1276px;
     background-size: 250px 1276px; } }
 
-/* line 123, ../scss/partials/_mainmenu.scss */
+/* line 133, ../scss/partials/_mainmenu.scss */
 #nav .updates .icon, .alt-menu .updates .icon {
   display: inline-block;
   vertical-align: middle;
@@ -2239,7 +2307,7 @@ table form button {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 123, ../scss/partials/_mainmenu.scss */
+  /* line 133, ../scss/partials/_mainmenu.scss */
   #nav .updates .icon, .alt-menu .updates .icon {
     background-image: url('../img/librarian/2x-s53c21e5ca8.png');
     background-position: 0 -1196px;
@@ -2248,7 +2316,7 @@ table form button {
     -webkit-background-size: 250px 1276px;
     background-size: 250px 1276px; } }
 
-/* line 129, ../scss/partials/_mainmenu.scss */
+/* line 139, ../scss/partials/_mainmenu.scss */
 #nav .updates:hover .icon, #nav .updates.active .icon {
   display: inline-block;
   vertical-align: middle;
@@ -2258,7 +2326,7 @@ table form button {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 129, ../scss/partials/_mainmenu.scss */
+  /* line 139, ../scss/partials/_mainmenu.scss */
   #nav .updates:hover .icon, #nav .updates.active .icon {
     background-image: url('../img/librarian/2x-s53c21e5ca8.png');
     background-position: 0 -1251px;
@@ -2267,7 +2335,7 @@ table form button {
     -webkit-background-size: 250px 1276px;
     background-size: 250px 1276px; } }
 
-/* line 123, ../scss/partials/_mainmenu.scss */
+/* line 133, ../scss/partials/_mainmenu.scss */
 #nav .logout .icon, .alt-menu .logout .icon {
   display: inline-block;
   vertical-align: middle;
@@ -2277,7 +2345,7 @@ table form button {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 123, ../scss/partials/_mainmenu.scss */
+  /* line 133, ../scss/partials/_mainmenu.scss */
   #nav .logout .icon, .alt-menu .logout .icon {
     background-image: url('../img/librarian/2x-s53c21e5ca8.png');
     background-position: 0 -506px;
@@ -2286,7 +2354,7 @@ table form button {
     -webkit-background-size: 250px 1276px;
     background-size: 250px 1276px; } }
 
-/* line 129, ../scss/partials/_mainmenu.scss */
+/* line 139, ../scss/partials/_mainmenu.scss */
 #nav .logout:hover .icon, #nav .logout.active .icon {
   display: inline-block;
   vertical-align: middle;
@@ -2296,7 +2364,7 @@ table form button {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 129, ../scss/partials/_mainmenu.scss */
+  /* line 139, ../scss/partials/_mainmenu.scss */
   #nav .logout:hover .icon, #nav .logout.active .icon {
     background-image: url('../img/librarian/2x-s53c21e5ca8.png');
     background-position: 0 -561px;
@@ -2305,7 +2373,7 @@ table form button {
     -webkit-background-size: 250px 1276px;
     background-size: 250px 1276px; } }
 
-/* line 123, ../scss/partials/_mainmenu.scss */
+/* line 133, ../scss/partials/_mainmenu.scss */
 #nav .settings .icon, .alt-menu .settings .icon {
   display: inline-block;
   vertical-align: middle;
@@ -2315,7 +2383,7 @@ table form button {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 123, ../scss/partials/_mainmenu.scss */
+  /* line 133, ../scss/partials/_mainmenu.scss */
   #nav .settings .icon, .alt-menu .settings .icon {
     background-image: url('../img/librarian/2x-s53c21e5ca8.png');
     background-position: 0 -616px;
@@ -2324,7 +2392,7 @@ table form button {
     -webkit-background-size: 250px 1276px;
     background-size: 250px 1276px; } }
 
-/* line 129, ../scss/partials/_mainmenu.scss */
+/* line 139, ../scss/partials/_mainmenu.scss */
 #nav .settings:hover .icon, #nav .settings.active .icon {
   display: inline-block;
   vertical-align: middle;
@@ -2334,7 +2402,7 @@ table form button {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 129, ../scss/partials/_mainmenu.scss */
+  /* line 139, ../scss/partials/_mainmenu.scss */
   #nav .settings:hover .icon, #nav .settings.active .icon {
     background-image: url('../img/librarian/2x-s53c21e5ca8.png');
     background-position: 0 -671px;
@@ -2641,6 +2709,18 @@ form.inline button {
 .info {
   padding: 20px; }
 
+/* line 179, ../scss/partials/_common_elements.scss */
+p.end, p.empty {
+  font-size: 125%;
+  line-height: 130%;
+  color: #888888;
+  text-align: center;
+  padding: 1.5em 20px 2em; }
+
+/* line 187, ../scss/partials/_common_elements.scss */
+p.end {
+  padding-top: 2em; }
+
 /**
  * _sprites.scss: sprite images with high-dpi display support
  *
@@ -2731,7 +2811,7 @@ footer .progver, footer .copyright {
  */
 /* line 5, ../scss/partials/_introduction.scss */
 .introduction {
-  background-image: url('../img/web_misc/intro_bg.jpg?1436360250');
+  background-image: url('../img/web_misc/intro_bg.jpg?1436997164');
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -3060,7 +3140,7 @@ footer .progver, footer .copyright {
   text-align: right; }
 /* line 48, ../scss/partials/_submenu.scss */
 .submenu .lantern {
-  background-image: url('../img/web_misc/temp_cta.png?1436360250');
+  background-image: url('../img/web_misc/temp_cta.png?1436997164');
   background-repeat: no-repeat;
   position: absolute;
   bottom: 0;
@@ -3406,16 +3486,16 @@ footer .progver, footer .copyright {
   min-height: 400px; }
 /* line 35, ../scss/partials/_products.scss */
 .products .pic-col.lantern {
-  background-image: url('../img/web_misc/howto_lantern.jpg?1436360250'); }
+  background-image: url('../img/web_misc/howto_lantern.jpg?1436997164'); }
 /* line 39, ../scss/partials/_products.scss */
 .products .pic-col.pillar {
-  background-image: url('../img/web_misc/howto_pillar.jpg?1436360250'); }
+  background-image: url('../img/web_misc/howto_pillar.jpg?1436997164'); }
 /* line 43, ../scss/partials/_products.scss */
 .products .pic-col.diy {
-  background-image: url('../img/web_misc/howto_diy.jpg?1436360250'); }
+  background-image: url('../img/web_misc/howto_diy.jpg?1436997164'); }
 /* line 47, ../scss/partials/_products.scss */
 .products .pic-col.usb-stb {
-  background-image: url('../img/web_misc/howto_usb.jpg?1436360250'); }
+  background-image: url('../img/web_misc/howto_usb.jpg?1436997164'); }
 /* line 51, ../scss/partials/_products.scss */
 .products .h-bar {
   border: 0 none;
@@ -3430,26 +3510,26 @@ footer .progver, footer .copyright {
 .products .button .buy .icon {
   position: absolute;
   top: -2px;
-  background-image: url('../img/icons/1x/cart_rev.png?1436360250');
+  background-image: url('../img/icons/1x/cart_rev.png?1436997164');
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
   /* line 62, ../scss/partials/_products.scss */
   .products .button .buy .icon {
-    background-image: url('../img/icons/2x/cart_rev.png?1436360250');
+    background-image: url('../img/icons/2x/cart_rev.png?1436997164');
     -moz-background-size: 25px, 25px;
     -o-background-size: 25px, 25px;
     -webkit-background-size: 25px, 25px;
     background-size: 25px, 25px; } }
 /* line 66, ../scss/partials/_products.scss */
 .products .button .buy .icon:hover {
-  background-image: url('../img/icons/1x/cart_rev_hover.png?1436360250');
+  background-image: url('../img/icons/1x/cart_rev_hover.png?1436997164');
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
   /* line 66, ../scss/partials/_products.scss */
   .products .button .buy .icon:hover {
-    background-image: url('../img/icons/2x/cart_rev_hover.png?1436360250');
+    background-image: url('../img/icons/2x/cart_rev_hover.png?1436997164');
     -moz-background-size: 25px, 25px;
     -o-background-size: 25px, 25px;
     -webkit-background-size: 25px, 25px;
@@ -3533,26 +3613,26 @@ footer .progver, footer .copyright {
 .products .items .buy .icon {
   display: inline-block;
   vertical-align: middle;
-  background-image: url('../img/icons/1x/cart_link.png?1436360250');
+  background-image: url('../img/icons/1x/cart_link.png?1436997164');
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
   /* line 102, ../scss/partials/_products.scss */
   .products .items .buy .icon {
-    background-image: url('../img/icons/2x/cart_link.png?1436360250');
+    background-image: url('../img/icons/2x/cart_link.png?1436997164');
     -moz-background-size: 25px, 25px;
     -o-background-size: 25px, 25px;
     -webkit-background-size: 25px, 25px;
     background-size: 25px, 25px; } }
 /* line 106, ../scss/partials/_products.scss */
 .products .items .buy .icon:hover {
-  background-image: url('../img/icons/1x/cart_link_hover.png?1436360250');
+  background-image: url('../img/icons/1x/cart_link_hover.png?1436997164');
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
   /* line 106, ../scss/partials/_products.scss */
   .products .items .buy .icon:hover {
-    background-image: url('../img/icons/2x/cart_link_hover.png?1436360250');
+    background-image: url('../img/icons/2x/cart_link_hover.png?1436997164');
     -moz-background-size: 25px, 25px;
     -o-background-size: 25px, 25px;
     -webkit-background-size: 25px, 25px;
@@ -4114,18 +4194,6 @@ form.search .icon {
   right: 0;
   padding: 0 20px 20px 0; }
 
-/* line 184, ../scss/partials/_content_list.scss */
-p.end, p.empty {
-  font-size: 125%;
-  line-height: 130%;
-  color: #888888;
-  text-align: center;
-  padding: 0.5em 20px 2em; }
-
-/* line 192, ../scss/partials/_content_list.scss */
-p.end {
-  padding-top: 2em; }
-
 /**
  * _grid.scss: simple grid system
  * 
@@ -4164,18 +4232,22 @@ p.end {
   margin-bottom: 2em; }
 /* line 15, ../scss/partials/_downloads.scss */
 .downloads-list .do {
+  margin-left: 10px;
   font-size: 87.5%;
   line-height: 137.5%;
   color: #888888;
   margin-bottom: 0.5em; }
-/* line 20, ../scss/partials/_downloads.scss */
+/* line 21, ../scss/partials/_downloads.scss */
 .downloads-list .do:last-of-type {
   margin-bottom: 1em; }
-/* line 25, ../scss/partials/_downloads.scss */
+/* line 26, ../scss/partials/_downloads.scss */
 .downloads-list .label {
   font-weight: bold; }
-
 /* line 30, ../scss/partials/_downloads.scss */
+.downloads-list form {
+  margin-bottom: 1em; }
+
+/* line 35, ../scss/partials/_downloads.scss */
 .bottom-pager {
   text-align: center;
   padding: 2em 20px; }
