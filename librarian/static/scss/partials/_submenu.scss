@@ -21,7 +21,7 @@
 
     &:visited {
       color: $sub;
-    } 
+    }
 
     &:hover {
       color: $base;
@@ -116,6 +116,7 @@
   }
 
   .store {
+    @include link-cta;
     .icon {
       margin-right: 0.5em;
       @include icon(cart, yes);

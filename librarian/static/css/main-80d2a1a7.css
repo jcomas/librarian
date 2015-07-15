@@ -3314,7 +3314,13 @@ footer .progver, footer .copyright {
     -o-background-size: 220px 1911px;
     -webkit-background-size: 220px 1911px;
     background-size: 220px 1911px; } }
-/* line 119, ../scss/partials/_submenu.scss */
+/* line 118, ../scss/partials/_submenu.scss */
+.submenu .store {
+  color: #e17502; }
+/* line 36, ../scss/outernet/mixins/_hyperlinks.scss */
+.submenu .store:visited {
+  color: #e17502; }
+/* line 120, ../scss/partials/_submenu.scss */
 .submenu .store .icon {
   margin-right: 0.5em;
   display: inline-block;
@@ -3325,7 +3331,7 @@ footer .progver, footer .copyright {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 119, ../scss/partials/_submenu.scss */
+  /* line 120, ../scss/partials/_submenu.scss */
   .submenu .store .icon {
     background-image: url('../img/icons/2x-s0fc7e81043.png');
     background-position: 0 -935px;
@@ -3333,7 +3339,7 @@ footer .progver, footer .copyright {
     -o-background-size: 100px 4464px;
     -webkit-background-size: 100px 4464px;
     background-size: 100px 4464px; } }
-/* line 124, ../scss/partials/_submenu.scss */
+/* line 125, ../scss/partials/_submenu.scss */
 .submenu .store:hover .icon {
   display: inline-block;
   vertical-align: middle;
@@ -3343,7 +3349,7 @@ footer .progver, footer .copyright {
   width: 25px;
   height: 25px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.3dppx) {
-  /* line 124, ../scss/partials/_submenu.scss */
+  /* line 125, ../scss/partials/_submenu.scss */
   .submenu .store:hover .icon {
     background-image: url('../img/icons/2x-s0fc7e81043.png');
     background-position: 0 -990px;
@@ -3351,14 +3357,14 @@ footer .progver, footer .copyright {
     -o-background-size: 100px 4464px;
     -webkit-background-size: 100px 4464px;
     background-size: 100px 4464px; } }
-/* line 129, ../scss/partials/_submenu.scss */
+/* line 130, ../scss/partials/_submenu.scss */
 .submenu .menu-item {
   display: block;
   line-height: 60px;
   padding: 0px 20px;
   border-bottom: 1px solid #DDD;
   color: #555; }
-/* line 135, ../scss/partials/_submenu.scss */
+/* line 136, ../scss/partials/_submenu.scss */
 .submenu .menu-item a {
   padding: 0;
   border: 0 none; }
