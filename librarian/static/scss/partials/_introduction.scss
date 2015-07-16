@@ -122,4 +122,7 @@
       height: auto;
     }
   }
+  .subscribe {
+    @include single-input-form(400px);
+  }
 }

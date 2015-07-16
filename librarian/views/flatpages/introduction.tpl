@@ -5,15 +5,10 @@
         <h1>${_("Universal Information Access")}</h1>
         <p>${_("Outernet's free satellite multicast provides a continuous feed of digital media to the entire world. Our community determines which content is %(uplink_link)s for global distribution. Receiving Outernet is similar to satellite tv.") % {'uplink_link': '<a href="https://uplink.outernet.is">uplinked</a>'}}</p>
         <p>${_("This website represents how content displays on a satellite data receiver, which you can %(buy_link)s or %(build_link)s.") % {'buy_link': '<a href="http://store.outernet.is/">buy from us</a>', 'build_link': '<a href="https://github.com/Outernet-Project/orx-rpi#orx-build-for-raspbery-pi">build for yourself</a>'}}</p>
-        <h2>${_("Subscribe to Outernet Newsletter")}</h2>
-        ${h.form(action=i18n_url('subscribe'), method='post')}
+        ${h.form(action=i18n_url('subscribe'), method='post', _class="subscribe")}
             ${th.csrf_tag()}
-            <p>
-            ${h.vinput('email', {}, _type="email", _placeholder="*Email address")}
-            </p>
-            <p>
-                <button class="reverse" type="submit">${_("Subscribe")}</button>
-            </p>
+            ${h.vinput('email', {}, _type="email", _placeholder=_("Receive Updates"))}
+            <button class="primary" type="submit">${_("Subscribe")}</button>
         </form>
     </div>
 </div>

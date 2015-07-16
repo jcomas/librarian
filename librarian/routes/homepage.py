@@ -65,7 +65,7 @@ def subscribe():
                 status=status,
                 message=message,
                 redirect_url=i18n_url('content:list'),
-                redirect_target=_("homepage"))
+                redirect_target=_("the home page"))
 
 
 def redirect_funding():

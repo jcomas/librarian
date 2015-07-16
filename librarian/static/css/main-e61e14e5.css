@@ -3046,6 +3046,42 @@ footer .progver, footer .copyright {
 .introduction .slider-container .slide.visible {
   opacity: 1;
   height: auto; }
+/* line 125, ../scss/partials/_introduction.scss */
+.introduction .subscribe {
+  display: inline-block;
+  border: 1px solid #dddddd;
+  background: #fafafa;
+  -moz-border-radius: 1000px;
+  -webkit-border-radius: 1000px;
+  border-radius: 1000px;
+  padding: 2px;
+  position: relative;
+  white-space: nowrap; }
+/* line 200, ../scss/outernet/mixins/_forms.scss */
+.introduction .subscribe input[type="text"], .introduction .subscribe input[type="numeric"], .introduction .subscribe input[type="email"], .introduction .subscribe input[type="file"], .introduction .subscribe input[type="password"] {
+  display: inline-block;
+  max-width: none;
+  border: 0;
+  background-color: transparent;
+  vertical-align: middle;
+  -moz-border-radius: 1000px;
+  -webkit-border-radius: 1000px;
+  border-radius: 1000px; }
+/* line 212, ../scss/outernet/mixins/_forms.scss */
+.introduction .subscribe input[type="text"]:focus, .introduction .subscribe input[type="numeric"]:focus, .introduction .subscribe input[type="email"]:focus, .introduction .subscribe input[type="file"]:focus, .introduction .subscribe input[type="password"]:focus {
+  background-color: #f3f8fc; }
+/* line 178, ../scss/outernet/mixins/_forms.scss */
+.introduction .subscribe input[type="text"], .introduction .subscribe input[type="numeric"], .introduction .subscribe input[type="email"], .introduction .subscribe input[type="file"], .introduction .subscribe input[type="password"] {
+  width: 400px; }
+/* line 220, ../scss/outernet/mixins/_forms.scss */
+.introduction .subscribe label {
+  display: inline-block;
+  padding-bottom: 0;
+  margin-right: 0.5em;
+  vertical-align: middle; }
+/* line 227, ../scss/outernet/mixins/_forms.scss */
+.introduction .subscribe button {
+  display: inline-block; }
 
 /**
  * _colors.scss: color definitions
