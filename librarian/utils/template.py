@@ -26,6 +26,7 @@ from .lang import LANGS, UI_LANGS, SELECT_LANGS
 def configure_template(app):
     bottle.TEMPLATE_PATH.insert(0, app.in_pkg('views'))
     bottle.BaseTemplate.defaults.update({
+        'DEBUG': bottle.DEBUG,
         'app_version': app.version,
         'request': bottle.request,
         'h': html,
