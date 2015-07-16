@@ -35,6 +35,6 @@
         setTimeout(startSlide, delay);
     }
 
-    intro.append(slider);
-    startSlide();
+    // intro.append(slider);
+    // startSlide();
 }(this.jQuery));
