@@ -103,9 +103,9 @@
                         <span class="icon"></span>
                         <span class="label">${_("Connect")}</span>
                     </a>
-                    <a class="navicon" href="https://broaadcast.outernet.is/">
+                    <a class="navicon" href="https://uplink.outernet.is/">
                         <span class="icon"></span>
-                        <span class="label">${_("Broadcast")}</span>
+                        <span class="label">${_("Uplink")}</span>
                     </a>
                     <a class="navicon" href="https://wiki.outernet.is/">
                         <span class="icon"></span>

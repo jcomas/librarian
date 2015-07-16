@@ -7,7 +7,7 @@
         <a class="buy-a-lantern" href="http://store.outernet.is/products/lighthouse-by-outernet-satellite-data-receiver"><span class="icon"></span><span class="caption">${_("Buy a Lighthouse!")}</span></a>
     </div><div class="right">
         <a class="sublink" href="${i18n_url('flat:how_to_connect')}">${_("Connect")}</a>
-        <a class="sublink" href="https://broadcast.outernet.is/">${_("Broadcast")}</a>
+        <a class="sublink" href="https://uplink.outernet.is/">${_("Uplink")}</a>
         <a class="sublink" href="https://wiki.outernet.is/">${_("Wiki")}</a>
         <a class="sublink store" href="http://store.outernet.is/"><span class="icon"></span>${_("Store")}</a>
     </div>
