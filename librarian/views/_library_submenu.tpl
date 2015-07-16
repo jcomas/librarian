@@ -8,7 +8,7 @@
     </div><div class="right">
         <a class="sublink" href="${i18n_url('flat:how_to_connect')}">${_("Connect")}</a>
         <a class="sublink" href="https://broadcast.outernet.is/">${_("Broadcast")}</a>
-        <a class="sublink" href="https://wiki.outernet.is/">${_("About")}</a>
+        <a class="sublink" href="https://wiki.outernet.is/">${_("Wiki")}</a>
         <a class="sublink store" href="http://store.outernet.is/"><span class="icon"></span>${_("Store")}</a>
     </div>
 </div>
