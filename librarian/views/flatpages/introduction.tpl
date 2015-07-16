@@ -1,5 +1,4 @@
 <div class="introduction">
-    <p class="label-intro">${_("welcome")}</p>
     <div class="left-sat"></div>
     <div class="right-sat"></div>
     <div class="inner">
@@ -21,8 +20,6 @@
         or <a href="https://wiki.outernet.is/">help us decide</a> what we curate.
         """)}
         </p>
-
-        <div class="note">${_("This section represents an example of how content displays on Outernet. Sections following this one represent the demo of the content received through the Outernet's high-speed satellite datacast service.")}</div>
     </div>
 </div>
 
