@@ -3,7 +3,7 @@
     "css/dashboard-%(version)s.css": "dc20454c", 
     "css/main-%(version)s.css": "90c06ca8", 
     "css/wizard-%(version)s.css": "17e96f78", 
-    "js/content-%(version)s.js": "5bf127cd", 
+    "js/content-%(version)s.js": "7e3820fa", 
     "js/dashboard-%(version)s.js": "6dab1ac5", 
     "js/files-%(version)s.js": "d969cdea", 
     "js/reader-%(version)s.js": "2f328060", 
