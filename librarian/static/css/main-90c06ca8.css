@@ -3140,12 +3140,12 @@ footer .progver, footer .copyright {
   text-align: right; }
 /* line 48, ../scss/partials/_submenu.scss */
 .submenu .lantern {
-  background-image: url('../img/web_misc/temp_cta.png?1436997164');
+  background-image: url('../img/web_misc/lighthouse_small.jpg?1437008713');
   background-repeat: no-repeat;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   width: 83px;
-  height: 76px; }
+  height: 37px; }
 /* line 57, ../scss/partials/_submenu.scss */
 .submenu .buy-a-lantern {
   color: #e17502;

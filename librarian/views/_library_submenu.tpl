@@ -4,7 +4,7 @@
         <a class="social twitter" href="https://twitter.com/outernetforall"></a>
         <a class="social google" href="https://plus.google.com/+OuternetIs"></a>
         <span class="lantern"></span>
-        <a class="buy-a-lantern" href="https://www.indiegogo.com/projects/lantern-one-device-free-data-from-space-forever"><span class="icon"></span><span class="caption">${_("Buy a Lantern!")}</span></a>
+        <a class="buy-a-lantern" href="http://store.outernet.is/products/lighthouse-by-outernet-satellite-data-receiver"><span class="icon"></span><span class="caption">${_("Buy a Lighthouse!")}</span></a>
     </div><div class="right">
         <a class="sublink" href="${i18n_url('flat:how_to_connect')}">${_("Connect")}</a>
         <a class="sublink" href="https://broadcast.outernet.is/">${_("Broadcast")}</a>

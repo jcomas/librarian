@@ -85,15 +85,15 @@
                     ${mi}
                 % endfor
                 <div class="submenu mobile">
-                    <a class="navicon buy-a-lantern" href="https://www.indiegogo.com/projects/lantern-one-device-free-data-from-space-forever">
+                    <a class="navicon buy-a-lantern" href="http://store.outernet.is/products/lighthouse-by-outernet-satellite-data-receiver">
                         <span class="icon"></span>
-                        <span class="label">${_("Buy a Lantern!")}</span>
+                        <span class="label">${_("Buy a Lighthouse!")}</span>
                     </a>
                     <a class="navicon" href="${url('flat:how_to_connect')}">
                         <span class="icon"></span>
                         <span class="label">${_("Connect")}</span>
                     </a>
-                    <a class="navicon" href="https://broadcast.outernet.is/">
+                    <a class="navicon" href="https://broaadcast.outernet.is/">
                         <span class="icon"></span>
                         <span class="label">${_("Broadcast")}</span>
                     </a>
