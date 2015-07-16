@@ -2,9 +2,9 @@
     <div class="left-sat"></div>
     <div class="right-sat"></div>
     <div class="inner">
-        <h1>${_("Access to information is a human right, regardless of income, infrastructure, or geography.")}</h1>
-        <p>${_("Outernet's free satellite multicast provides a continuous feed of digital media to the entire world. Our community of users determines which content is %(uplink_link)s for global distribution. Setting up a receiver is similar to watching satellite tv.") % {'uplink_link': '<a href="https://uplink.outernet.is">uplinked</a>'}}</p>
-        <p>${_("This website represents how content displays on Outernet's satellite data receivers, which you can %(buy_link)s or %(build_link)s.") % {'buy_link': '<a href="http://store.outernet.is/">buy from us</a>', 'build_link': '<a href="https://github.com/Outernet-Project/orx-rpi#orx-build-for-raspbery-pi">build for yourself</a>'}}</p>
+        <h1>${_("Universal Information Access")}</h1>
+        <p>${_("Outernet's free satellite multicast provides a continuous feed of digital media to the entire world. Our community determines which content is %(uplink_link)s for global distribution. Receiving Outernet is similar to satellite tv.") % {'uplink_link': '<a href="https://uplink.outernet.is">uplinked</a>'}}</p>
+        <p>${_("This website represents how content displays on a satellite data receiver, which you can %(buy_link)s or %(build_link)s.") % {'buy_link': '<a href="http://store.outernet.is/">buy from us</a>', 'build_link': '<a href="https://github.com/Outernet-Project/orx-rpi#orx-build-for-raspbery-pi">build for yourself</a>'}}</p>
     </div>
 </div>
 
