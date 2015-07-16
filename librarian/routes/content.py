@@ -82,6 +82,7 @@ def prepare_content_list(multipage=None):
 
 
 @roca_view('content_list', '_content_list', template_func=template)
+@csrf_token
 def content_list():
     """ Show list of content """
     result = prepare_content_list()
@@ -92,6 +93,7 @@ def content_list():
 
 
 @roca_view('content_list', '_content_list', template_func=template)
+@csrf_token
 def content_sites_list():
     """ Show list of multipage content only """
     result = prepare_content_list(multipage=True)

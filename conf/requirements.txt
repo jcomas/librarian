@@ -16,3 +16,4 @@ scandir==0.9
 outernet-metadata==0.5.post3
 webassets==0.10.1
 python-memcached==1.54
+mailchimp==2.0.9
