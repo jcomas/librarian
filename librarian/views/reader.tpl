@@ -14,7 +14,6 @@ ${meta.title}
     <div class="reader-meta data">
         <div class="inner">
             <p class="date">
-            ${tags.tags(meta)}
             ## Translators, attribution line appearing in the content list
             <p class="attrib">
             ## Translators, used in place of publisher name if publsiher name is not known
